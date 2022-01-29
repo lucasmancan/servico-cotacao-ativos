@@ -29,3 +29,4 @@ urllib3==1.25.8
 uvicorn==0.17.1
 uvloop==0.16.0
 lxml==4.7.1
+yahooquery==2.2.15

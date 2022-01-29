@@ -1,6 +1,5 @@
 import requests
 import pandas as pd
-import numpy as np
 
 url = 'https://www.fundsexplorer.com.br/ranking'
 headers = {
@@ -10,7 +9,7 @@ headers = {
 }
 
 
-def collect():
+def buscar_fundos_imobiliarios():
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
         df = pd.read_html(response.content, encoding='utf-8')[0]
