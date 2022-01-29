@@ -28,3 +28,4 @@ requests-unixsocket==0.2.0
 urllib3==1.25.8
 uvicorn==0.17.1
 uvloop==0.16.0
+lxml==4.7.1
